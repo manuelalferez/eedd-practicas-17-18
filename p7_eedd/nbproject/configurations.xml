@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Diccionario.h</itemPath>
+      <itemPath>Palabra.h</itemPath>
+      <itemPath>Sucesor.h</itemPath>
+      <itemPath>THashCerrada.h</itemPath>
+      <itemPath>TextoPredictivo.h</itemPath>
+      <itemPath>Usuario.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Diccionario.cpp</itemPath>
+      <itemPath>Palabra.cpp</itemPath>
+      <itemPath>Sucesor.cpp</itemPath>
+      <itemPath>TextoPredictivo.cpp</itemPath>
+      <itemPath>Usuario.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+      </compileType>
+      <item path="Diccionario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Diccionario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Palabra.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Palabra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sucesor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sucesor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="THashCerrada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextoPredictivo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextoPredictivo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Diccionario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Diccionario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Palabra.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Palabra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sucesor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sucesor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="THashCerrada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextoPredictivo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextoPredictivo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
